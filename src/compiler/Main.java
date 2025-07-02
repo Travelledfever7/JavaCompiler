@@ -20,7 +20,7 @@ public class Main {
         String code = "START "
                 + "let x = 10 "
                 + "if (x > 5) { "
-                + "print x "
+                + "print z "
                 + "}"
                 + "END";
         List<token> tokens = lex.tokenize(code);
@@ -28,6 +28,7 @@ public class Main {
             System.out.println(tok);
         }
         new sintactic(tokens).parse();
+        new semantic(tokens).analyze();
     }
     
 }
