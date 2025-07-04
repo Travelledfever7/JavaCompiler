@@ -17,18 +17,18 @@ import java.util.List;
 <Instructions>  ->  <Instruction> <Instructions> | lambda
 <Instruction>   -> "let" <Identifier> "=" <Expression> | "print" <Identifier> | "if" "(" <Condition> ")" <Block> | "while" "(" <Condition> ")" <Block>
 <Block>         -> "{" <Instructions> "}"
-<Expression>    -> <Identifier> <Operator> <Expression> | <Identifier> | <Numeber>
+<Expression>    -> <Identifier> <Operator> <Expression> | <Identifier> | <Number>
 <Condition>     -> <Expression>
 <Identifier>    -> [a-zA-Z][a-zA-Z0-9]*
 <Numeber>       -> [0-9]+
 <Operator>      -> "+" | "-" | "*" | "/" | "=" | "<" | ">"
  */
-public class sintactic {
+public class syntactic {
 
     public List<token> tokens;
     public int position;
 
-    public sintactic(List<token> tokens) {
+    public syntactic(List<token> tokens) {
         this.tokens = tokens;
         this.position = 0;
     }

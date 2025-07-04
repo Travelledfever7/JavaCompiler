@@ -20,14 +20,14 @@ public class Main {
         String code = "START "
                 + "let x = 10 "
                 + "if (x > 5) { "
-                + "print z "
+                + "print x "
                 + "}"
                 + "END";
         List<token> tokens = lex.tokenize(code);
         for (token tok: tokens){
             System.out.println(tok);
         }
-        new sintactic(tokens).parse();
+        new syntactic(tokens).parse();
         new semantic(tokens).analyze();
     }
     
