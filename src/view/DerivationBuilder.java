@@ -40,7 +40,6 @@ public class DerivationBuilder {
     private TreeNode instruction() {
         TreeNode node = new TreeNode("<instruction>");
         String keyword = peek().value;
-        System.out.println("MK" + advance().type);
 
         if (keyword.equals("let")) {
             node.addChild(new TreeNode(advance().value)); // let keyword
