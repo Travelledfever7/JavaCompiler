@@ -3,12 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/lebus/OneDrive/Documentos/NetBeansProjects/Compiler/src/analyzers/semantic.java</file>
-            <file>file:/C:/Users/lebus/OneDrive/Documentos/NetBeansProjects/Compiler/src/analyzers/lexical/token.java</file>
-            <file>file:/C:/Users/lebus/OneDrive/Documentos/NetBeansProjects/Compiler/src/analyzers/lexical/lexical.java</file>
-            <file>file:/C:/Users/lebus/OneDrive/Documentos/NetBeansProjects/Compiler/src/analyzers/lexical/TokenDefinition.java</file>
-            <file>file:/C:/Users/lebus/OneDrive/Documentos/NetBeansProjects/Compiler/src/compiler/Main.java</file>
-            <file>file:/C:/Users/lebus/OneDrive/Documentos/NetBeansProjects/Compiler/src/analyzers/syntactic.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/analyzers/semantic.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/view/TreeNode.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/analyzers/lexical/lexical.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/view/DerivationBuilder.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/compiler/Main.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/compiler/compiler.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/analyzers/sintactic.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/analyzers/lexical/token.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/view/DerivationTreeApp.java</file>
+            <file>file:/C:/Users/m-cam/Documents/NetBeansProjects/JavaCompiler/src/analyzers/lexical/TokenDefinition.java</file>
         </group>
     </open-files>
 </project-private>

@@ -6,7 +6,6 @@ package analyzers;
 
 import analyzers.lexical.*;
 import java.util.List;
-
 /**
  *
  * @author lebus
@@ -159,5 +158,4 @@ public class syntactic {
     public void error(String message) {
         throw new RuntimeException("Syntax error at token " + (isAtEnd() ? "EOF" : peek()) + ": expected " + message);
     }
-
 }
